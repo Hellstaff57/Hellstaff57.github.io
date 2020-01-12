@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-family: "Playfair Display", "Arial", "serif";
+    color: #626262;
+    font-size: 0px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+/*text format*/
+
+.nav-list-link {
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content-list h3 {
+    font-family: "Ubuntu", "Arial", "sans-serif";
+    color: #b4ad9e;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.content-list h4 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.text-size {
+    font-size: 14px;
+}
+
+/*navigation format*/
+.nav-list {
+    display: inline-block;
+    list-style: none;
+    margin: unset;
+    padding: 74px 0 102px 0;
+    width: 901px;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list-item1 {
+    margin-right: 120px;
+}
+
+.nav-list-item2 {
+    margin-right: 104px;
+}
+
+.nav-list-item3 {
+    margin-right: 96px;
+}
+
+.nav-list-link:hover {
+    color: #03a9f4;
+}
+
+/*content format*/
+.content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.content-list li {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+
+li.content-list-item:nth-child(odd) {
+    margin-right: 60px;
+}
+
+.content-list-img {
+    margin: 0 0 28px;
+}
+
+.content-list-h3 {
+    margin: 0 0 28px;
+}
+
+.content-list-h4 {
+    margin: 0 0 38px;
+}
+
+.content-list-p {
+    margin: 0 0 132px;
+}
+
+.content-list-last-p {
+    margin: 0 0 56px;
+}
+
+/*button format*/
+.first-button {
+    color: inherit;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #626262;
+    border-width: 1px;
+    padding: 18px 20px;
+}
+
+/*Взято со скринкаста в 3-тьем модуле*/
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="ratio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
